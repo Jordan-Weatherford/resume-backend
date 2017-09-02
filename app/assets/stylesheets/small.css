@@ -1,0 +1,245 @@
+
+
+/*.josefin { font-family: 'Josefin Sans', sans-serif; }
+.white { color: white; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: #ffefc4; }
+.purple { background-color: #d45eff; }
+.sky-blue { color: #44aefc; }
+.cream { color: #fff6cc; }
+.lavender { background-color: #cfedfb; }
+.moccasin { background-color: #edd580; }
+.salmon { background-color: #ff6f69; }
+.sandyBrown { background-color: #ffcc5c; }
+.mediumAquamarin { background-color: #88d8b0; }
+.skyBlue { background-color: #44aefc; }
+.pinkLavender { background-color: #a487ba; }
+.hotPink { background-color: #f289b7; }
+.name {
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 3px #888888;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: 3px 3px 3px #888888;
+    padding-top: 0.4em;
+    border-top: 2px solid white;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.intro-view {
+    height: 100%;
+    text-align: center;
+    background-image: url('/assets/gold_creek_pond.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 350px;
+
+}
+
+.profile-view {
+    height: 100%;
+    min-width: 350px;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.skills-view {
+    height: 100%;
+    min-width: 350px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-image: url("/assets/big_sky.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.projects-view {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    min-width: 350px;
+
+}
+
+.projects-container {
+    padding: 10px;
+}
+
+.projects-header {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0;
+    text-shadow: 3px 3px 5px #888888
+}
+
+
+.title-container {
+    display: inline-block;
+}
+
+
+.center {
+    margin: 0 auto;
+}
+
+
+.myFace {
+    border-radius: 50%;
+    border: 4px solid #44aefc;
+    margin-top: 2em;
+    box-shadow: 2px 3px 13px 6px #abacad;
+}
+
+.summary-container {
+    width: 20%;
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile-title {
+    margin-bottom: 6em;
+    margin-top: 2em;
+}
+
+.profile-header {
+    margin-top: 0;
+    font-size: 4em;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px #888888
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    text-shadow: 3px 3px 5px #888888;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list-item {
+    margin: 1em auto 1em auto;
+}
+
+.skills-container {
+    width: 550px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    float: right;
+    width: 70%;
+    height: 18px;
+    background-color: #e2e2e2;
+    border-radius: 9px;
+    box-shadow: 5px 5px 7px #888888;
+}
+
+.progress-bar-interior {
+    border-radius: 9px;
+    height: 18px;
+}
+
+.project-div {
+    width: 28%;
+    min-width: 300px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    border: 1px solid black;
+    height: 100%;
+    box-shadow: 3px 4px 14px #282825;
+    padding: 8px;
+}
+
+.project-vid {
+    height: 200px;
+    width: 80%;
+    box-shadow: 3px 4px 14px #282825;
+}
+
+.project-vid:active {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.project-title {
+    color: white;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 4px #888888;
+    margin: 6px;
+}
+
+.summary-header {
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px #888888;
+    margin: 2px;
+    text-align: left;
+}
+
+.tech-list {
+    text-align: left;
+}
+
+.footer-div {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #282825;
+}
+
+.footer-text {
+    font-size: 1.2em;
+}
+
+.github-link {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+
+.github-link:active {
+    position: fixed;
+    bottom: 8px;
+    right: 13px;
+}
+
+.github-img {
+    box-shadow: 1px 1px 12px 4px #282825;
+    border-radius: 25px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px #abacad;
+}
+
+.left {
+    text-align: left;
+}
+
+.italics { font-style: italic;}*/

@@ -1,37 +1,22 @@
 $(document).ready(function(){
+    var width = $(window).width();
     setViewHeights();
-    setViewWidths();
-    setVidHeight();
 });
 
 $(window).resize(function(){
     setViewHeights();
-    setViewWidths();
-    setVidHeight();
 });
 
 function setViewHeights(){
     var viewportHeight = $(window).height();
+    var viewportWidth = $(window).width();
     var titleHeight = viewportHeight / 2.4;
+
     $(".intro-view").css("height", viewportHeight);
     $(".title-container").css("margin-top", titleHeight);
-};
+    $(".profile-view").css("height", viewportHeight);
 
-function setViewWidths(){
-    var viewportWidth = $(window).width();
-
-    if (viewportWidth < 850){
-        $(".blah").css("width", "350px;");
-        $(".skills-container").css("width", viewportWidth - 50);
-    } else {
-        $(".blah").css("width", "950px;")
-        $(".skills-container").css("width", "750px;");
-    };
-
-};
-
-
-function setVidHeight(){
-    var width = $(".project-vid").width();
-    $(".project-vid").css("height", width * 0.5625);
+    if (viewportWidth > 480) {
+        $(".skills-view").css("height", viewportHeight);
+    }
 };

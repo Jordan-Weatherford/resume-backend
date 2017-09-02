@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>Jordan Weatherford - Portfolio</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans|Quicksand" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="../css/style.css" type="text/css"> -->
-        <%= stylesheet_link_tag 'style' %>
-        <%= javascript_include_tag 'scripts' %>
+        <link href="https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans|Quicksand" rel="stylesheet")"/>
+
+        <!-- media query meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
 
@@ -27,29 +27,30 @@
             <div class="center">
                 <div class="profile-container">
                     <h1 class="profile-header sky-blue josefin">Profile</h1>
-                    <h4 class="profile-title josefin">A budding software developer with a passion for making all things awesome.</h4>
+                    <h4 class="profile-title josefin italics">A budding software developer with a passion for making all things awesome.</h4>
                 </div><!-- profile-container -->
 
-                <div class="summary-container">
-                    <h2 class="sky-blue josefin shadow">My Story</h2>
-                    <p class="josefin">My path to software development has been all but conventional but the one thing that has remained constant is my passion for engineering and improving things. The fact that I can now build things without buying or wasting materials is just the cherry on top.</p>
+                <div class="summary-container left-summary-div">
+                    <h2 class="sky-blue josefin shadow story-header">My Story</h2>
+                    <p class="josefin left story-text center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ever since I've been old enough to hold a screwdriver, I've been taking things apart to see what's inside. My passion for understanding how things work has fueled my desire to build and engineer. Coupled with my love for gadgets and games, software is a perfect choice of medium for me.</p>
+                    <p class="text-right josefin">-Me</p>
                 </div><!-- summary-container -->
 
                 <div class="summary-container">
-                    <img class="myFace" src=<%= asset_path "me.jpg" %> alt="my face!" width="90%">
+                    <img class="myFace" src=<%= asset_path "me.jpg" %> alt="my face!" width="100%">
                 </div>
 
                 <div class="summary-container">
-                    <h2 class="josefin sky-blue shadow">Stats</h2>
+                    <h2 class="josefin sky-blue shadow story-header">Stats</h2>
 
-                    <h3 class="josefin shadow">Name:</h3>
-                    <p class="josefin">Jordan Weatherford</p>
+                    <h3 class="josefin shadow story-text">Name:</h3>
+                    <p class="josefin story-text">Jordan Weatherford</p>
 
-                    <h3 class="josefin shadow">Age:</h3>
-                    <p class="josefin">29 years</p>
+                    <h3 class="josefin shadow story-text">Age:</h3>
+                    <p class="josefin story-text">29 years</p>
 
-                    <h3 class="josefin shadow">Location:</h3>
-                    <p class="josefin">Edmonds, WA. USA</p>
+                    <h3 class="josefin shadow story-text">Location:</h3>
+                    <p class="josefin story-text location-text">Edmonds, WA. USA</p>
                 </div><!-- summary-container -->
             </div><!-- center -->
         </div><!-- profile-view -->
@@ -63,7 +64,7 @@
 
                     <!-- swift -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">Swift | iOS</span>
+                        <span class="skill-title josefin white">Swift | iOS</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 75%; background-color: #fc5e2f;"></div>
                         </div>
@@ -72,7 +73,7 @@
 
                     <!-- rails -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">Ruby | Rails</span>
+                        <span class="skill-title josefin white">Ruby | Rails</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 80%; background-color: #ae181b;"></div>
                         </div>
@@ -81,7 +82,7 @@
 
                     <!-- python -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">Python</span>
+                        <span class="skill-title josefin white">Python</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 40%; background-color: #5ab55a;"></div>
                         </div>
@@ -90,7 +91,7 @@
 
                     <!-- HTML -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">HTML</span>
+                        <span class="skill-title josefin white">HTML</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 50%; background-color: #f16529;"></div>
                         </div>
@@ -99,7 +100,7 @@
 
                     <!-- CSS -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">CSS</span>
+                        <span class="skill-title josefin white">CSS</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 65%; background-color: #33a9dc;"></div>
                         </div>
@@ -108,7 +109,7 @@
 
                     <!-- javascript / jquery -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">Javascript | jQuery</span>
+                        <span class="skill-title josefin white">Javascript | jQuery</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior purple" style="width: 55%;"></div>
                         </div>
@@ -117,7 +118,7 @@
 
                     <!-- bash / CLI -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">bash | CLI</span>
+                        <span class="skill-title josefin white">bash | CLI</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 45%; background-color: #f0db4f;"></div>
                         </div>
@@ -126,7 +127,7 @@
 
                     <!-- AWS -->
                     <li class="skills-list-item">
-                        <span class="skill-title josefin">AWS Cloud</span>
+                        <span class="skill-title josefin white">AWS Cloud</span>
                         <div class="progress-bar">
                             <div class="progress-bar-interior" style="width: 45%; background-color: black;"></div>
                         </div>
@@ -145,91 +146,92 @@
                 <div class="projects-row"><!-- project row 1 -->
 
                     <div class="project-div pinkLavender">
-                        <h3 class="project-title">Augmented Reality Shooter</h3>
+                        <h3 class="project-title story-header">Augmented Reality Shooter</h3>
                         <iframe class="project-vid" src="https://www.youtube.com/embed/ooOoDx2NxkU" frameborder="0" allowfullscreen></iframe>
-                        <h5 class="summary-header josefin">Summary</h5>
+                        <h5 class="summary-header josefin story-header">Summary</h5>
                         <ul>
-                            <li class="tech-list josefin white">iOS augmented reality 1st person shooter game. Keep shooting targets to stay alive!</li>
+                            <li class="tech-list josefin white story-text">iOS augmented reality 1st person shooter game. Keep shooting targets to stay alive!</li>
                         </ul>
-                        <h5 class="summary-header josefin">Technologies</h5>
+                        <h5 class="summary-header josefin story-header">Technologies</h5>
                         <ul>
-                            <li class="tech-list josefin white">Swift 4</li>
-                            <li class="tech-list josefin white">ARKit</li>
-                            <li class="tech-list josefin white">SceneKit</li>
+                            <li class="tech-list josefin white story-text">Swift 4</li>
+                            <li class="tech-list josefin white story-text">ARKit</li>
+                            <li class="tech-list josefin white story-text">SceneKit</li>
                         </ul>
                     </div>
 
 
                     <div class="project-div salmon">
-                        <h3 class="project-title">Dojo Gold</h3>
-                        <a href="http://18.221.53.83" target="_blank"><img class="project-vid" src="http://i.imgur.com/AAaJLDn.png" title="source: imgur.com" /></a>
-                        <h5 class="summary-header josefin">Summary</h5>
+                        <h3 class="project-title story-header">Dojo Gold</h3>
+                        <a href="http://18.221.53.83" target="_blank"><img class="project-vid"  width="90%" src="http://i.imgur.com/AAaJLDn.png" title="Ninja Gold Game Link / Pic" /></a>
+                        <h5 class="summary-header josefin story-header">Summary</h5>
                         <ul>
-                            <li class="tech-list josefin white">A simple webpage game that displays basic front-end to back-end understanding and Amazon AWS EC2 deployment without using Heroku. <a href="http://18.221.53.83">Try</a> your luck!</li>
+                            <li class="tech-list josefin white story-text">A simple webpage game that displays basic front-end to back-end understanding and Amazon AWS EC2 deployment without using Heroku. <a href="http://18.221.53.83">Try</a> your luck!</li>
                         </ul>
-                        <h5 class="summary-header josefin">Technologies</h5>
+                        <h5 class="summary-header josefin story-header">Technologies</h5>
                         <ul>
-                            <li class="tech-list josefin white">HTML</li>
-                            <li class="tech-list josefin white">CSS</li>
-                            <li class="tech-list josefin white">Ruby on Rails</li>
-                            <li class="tech-list josefin white">AWS EC2</li>
+                            <li class="tech-list josefin white story-text">HTML</li>
+                            <li class="tech-list josefin white story-text">CSS</li>
+                            <li class="tech-list josefin white story-text">Ruby on Rails</li>
+                            <li class="tech-list josefin white story-text">AWS EC2</li>
                         </ul>
                     </div>
 
 
 
                     <div class="project-div mediumAquamarin">
-                        <h3 class="project-title">Tic Tac Toe</h3>
+                        <h3 class="project-title story-header">Tic Tac Toe</h3>
                         <iframe class="project-vid" src="https://www.youtube.com/embed/NI6MCcby6v8" frameborder="0" allowfullscreen></iframe>
-                        <h5 class="summary-header josefin">Summary</h5>
+                        <h5 class="summary-header josefin story-header">Summary</h5>
                         <ul>
-                            <li class="tech-list josefin white">Tic Tac Toe for iOS.</li>
+                            <li class="tech-list josefin white story-text">Tic Tac Toe for iOS.</li>
                         </ul>
-                        <h5 class="summary-header josefin">Technologies</h5>
+                        <h5 class="summary-header josefin story-header">Technologies</h5>
                         <ul>
-                            <li class="tech-list josefin white">Swift 3</li>
+                            <li class="tech-list josefin white story-text">Swift 3</li>
                         </ul>
                     </div>
 
 
 
                     <div class="project-div moccasin">
-                        <h3 class="project-title">Augmented Reality Blueprint Visualizer</h3>
+                        <h3 class="project-title story-header">Augmented Reality Blueprint Visualizer</h3>
                         <iframe class="project-vid" src="https://www.youtube.com/embed/u30v6sNvSSk" frameborder="0" allowfullscreen></iframe>
-                        <h5 class="summary-header josefin">Summary</h5>
+                        <h5 class="summary-header josefin story-header">Summary</h5>
                         <ul>
-                            <li class="tech-list josefin white">iOS augmented reality app for viewing custom 3d models. Great for designing and gaining spatial awareness!</li>
+                            <li class="tech-list josefin white story-text">iOS augmented reality app for viewing custom 3d models. Great for designing and gaining spatial awareness!</li>
                         </ul>
-                        <h5 class="summary-header josefin">Technologies</h5>
+                        <h5 class="summary-header josefin story-header">Technologies</h5>
                         <ul>
-                            <li class="tech-list josefin white">Swift 4</li>
-                            <li class="tech-list josefin white">ARKit</li>
-                            <li class="tech-list josefin white">SceneKit</li>
-                            <li class="tech-list josefin white">Sketchup</li>
+                            <li class="tech-list josefin white story-text">Swift 4</li>
+                            <li class="tech-list josefin white story-text">ARKit</li>
+                            <li class="tech-list josefin white story-text">SceneKit</li>
+                            <li class="tech-list josefin white story-text">Sketchup</li>
                         </ul>
                     </div>
 
 
                     <div class="project-div hotPink">
-                        <h3 class="project-title">Photoboard Social Media App</h3>
+                        <h3 class="project-title story-header">Photoboard Social Media App</h3>
                         <iframe class="project-vid" src="https://www.youtube.com/embed/ooOoDx2NxkU" frameborder="0" allowfullscreen></iframe>
-                        <h5 class="summary-header josefin">Summary</h5>
+                        <h5 class="summary-header josefin story-header">Summary</h5>
                         <ul>
-                            <li class="tech-list josefin white">iOS social media app. Take pictures and pin them to the location where they were snapped. Other users can see where the pins are the map are but can only view the pictures when they're within a specified range, through an augmented reality view.</li>
+                            <li class="tech-list josefin white story-text">iOS social media app. Take pictures and pin them to the location where they were snapped. Other users can see where the pins are the map are but can only view the pictures when they're within a specified range, through an augmented reality view.</li>
                         </ul>
-                        <h5 class="summary-header josefin">Technologies</h5>
+                        <h5 class="summary-header josefin story-header">Technologies</h5>
                         <ul>
-                            <li class="tech-list josefin white">Swift 4</li>
-                            <li class="tech-list josefin white">HDAugmentedReality</li>
-                            <li class="tech-list josefin white">Alamofire</li>
-                            <li class="tech-list josefin white">Ruby on Rails</li>
-                            <li class="tech-list josefin white">AWS EC2</li>
-                            <li class="tech-list josefin white">AWS S3</li>
+                            <li class="tech-list josefin white story-text">Swift 4</li>
+                            <li class="tech-list josefin white story-text">AVFoundation</li>
+                            <li class="tech-list josefin white story-text">HDAugmentedReality</li>
+                            <li class="tech-list josefin white story-text">Alamofire</li>
+                            <li class="tech-list josefin white story-text">Ruby on Rails</li>
+                            <li class="tech-list josefin white story-text">AWS EC2</li>
+                            <li class="tech-list josefin white story-text">AWS S3</li>
                         </ul>
-                        <h5 class="summary-header josefin">Collaborators</h5>
+                        <h5 class="summary-header josefin story-header">Collaborators</h5>
                         <ul>
-                            <li class="tech-list josefin white">Paul Jekyon</li>
-                            <li class="tech-list josefin white">Vineeth Ragunah</li>
+                            <li class="tech-list josefin white story-text">Paul Jekyoung</li>
+                            <li class="tech-list josefin white story-text">Vineeth Raghunath</li>
                         </ul>
                     </div>
 
@@ -243,17 +245,11 @@
             <p class="footer-text josefin white"><span class="cream">phone: </span>206-228-3668 &nbsp; | &nbsp; <span class="cream">email: </span>jrw821@Gmail.com</p>
         </div>
 
-        <a class="github-link" href="https://github.com/Jordan-Weatherford" target="_blank"><img class="github-img"
-             src=<%= asset_path "Octocat.png" %> height=70px alt="Github Profile Link"></a>
+        <a class="github-link" href="https://github.com/Jordan-Weatherford" target="_blank"><img class="github-img" src=<%= asset_path "Octocat.png" %> height=80px alt="Github Profile Link"></a>
+        <a class="pdf-link" href="https://s3-us-west-2.amazonaws.com/jw-resume/JW-Resume.zip"><img class="pdf-img" src=<%= asset_path "pdf_download_icon.ico" %> height=100px alt="Resume Download Link"></a>
 
 
 <!-- 00000000000 -->
 
-
-
-
-
-
-        <!-- <script type="text/javascript" src="../javascript/jquery.js"></script> -->
     </body>
 </html>
