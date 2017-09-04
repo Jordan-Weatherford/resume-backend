@@ -1,3 +1,37 @@
+// test glowing stuff
+@-webkit-keyframes glowing {
+  0% { -webkit-box-shadow: 0 0 3px #131212; }
+  50% { -webkit-box-shadow: 0 0 14px #131212; }
+  100% { -webkit-box-shadow: 0 0 3px #131212; }
+}
+
+@-moz-keyframes glowing {
+  0% { -moz-box-shadow: 0 0 3px #131212; }
+  50% { -moz-box-shadow: 0 0 14px #131212; }
+  100% { -moz-box-shadow: 0 0 3px #131212; }
+}
+
+@-o-keyframes glowing {
+  0% { box-shadow: 0 0 3px #131212; }
+  50% { box-shadow: 0 0 14px #131212; }
+  100% { box-shadow: 0 0 3px #131212; }
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 3px #131212; }
+  50% { box-shadow: 0 0 14px #131212; }
+  100% { box-shadow: 0 0 3px #131212; }
+}
+
+.glow {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+
+
 
 @media only screen and (min-width:481px) {
         //desktop ONLY STYLES
