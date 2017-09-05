@@ -265,16 +265,29 @@
         font-size: 1.2em;
     }
 
+    .flickr-link {
+        position: fixed;
+        bottom: 225px;
+        right: 8px;
+    }
+
+    .flickr-link:active {
+        position: fixed;
+        bottom: 223px;
+        right: 6px;
+    }
+
+
     .github-link {
         position: fixed;
         bottom: 10px;
-        right: 15px;
+        right: 17px;
     }
 
     .github-link:active {
         position: fixed;
         bottom: 8px;
-        right: 13px;
+        right: 15px;
     }
 
     .github-img {
@@ -285,13 +298,13 @@
 
     .pdf-link {
         position: fixed;
-        bottom: 110px;
+        bottom: 108px;
         right: 12px;
     }
 
     .pdf-link:active {
         position: fixed;
-        bottom: 108px;
+        bottom: 106px;
         right: 10px;
     }
 
@@ -527,12 +540,21 @@
         font-size: 0.75em;
     }
 
+    .flickr-img {
+        height: 64px;
+    }
+
+    .flickr-link {
+        position: fixed;
+        bottom: 135px;
+        right: 11px;
+    }
+
     .github-link {
         position: fixed;
         bottom: 5px;
         right: 15px;
     }
-
 
     .github-img {
         box-shadow: 1px 1px 12px 4px #282825;
@@ -549,11 +571,4 @@
         bottom: 65px;
         right: 13px;
     }
-
-    .pdf-link:active {
-        position: fixed;
-        bottom: 108px;
-        right: 11px;
-    }
-
 }
